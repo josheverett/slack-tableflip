@@ -17,6 +17,10 @@
     "tableflip"
   ],
   "dependencies": {
-    "flip": "0.1.x"
+    "body-parser": "1.12.x",
+    "express": "4.12.x",
+    "flip": "0.1.x",
+    "minimist": "1.1.x",
+    "request": "2.56.x"
   }
 }

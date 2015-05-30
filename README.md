@@ -12,15 +12,16 @@
 `/tableflip foobar`
 (╯°□°）╯︵ ɹɐqooɟ
 
-![Example](http://i.imgur.com/P0tqsgo.png)
+![Example](https://i.imgur.com/P0tqsgo.png)
 
 ## Setup
 
 ### Slash Command
 
-Create a Slash Command called /tableflip, and point the URL to:
+Create a Slash Command called /tableflip, set the method to POST and point the
+URL to:
 
-http://your-slack-tableflip-instance.example.com/
+https://your-slack-tableflip-instance.example.com/tableflip
 
 The rest of the options are up to you.
 
