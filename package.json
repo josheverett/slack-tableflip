@@ -1,0 +1,22 @@
+{
+  "name": "slack-tableflip",
+  "version": "0.1.0",
+  "description": "(╯°□°）╯︵ ┻━┻",
+  "author": "Josh Everett <josh.r.everett@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josheverett/slack-tableflip"
+  },
+  "keywords": [
+    "slack",
+    "tableflip"
+  ],
+  "dependencies": {
+    "flip": "0.1.x"
+  }
+}
