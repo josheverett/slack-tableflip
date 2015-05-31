@@ -30,7 +30,7 @@ app.post('/tableflip', function (req, res) {
   channel = req.body.channel_name === 'directmessage' ?
     req.body.channel_id : '#' + req.body.channel_name;
 
-  text = req.body.text ? flip(text) : '┻━┻';
+  text = req.body.text ? flip(req.body.text) : '┻━┻';
 
   payload = {
     channel: channel,
@@ -50,7 +50,7 @@ app.post('/tableflip', function (req, res) {
       return res.status(500).send({ success: false, error: err.message });
     }
 
-    res.send({ success: true });
+    res.end();
   });
 });
 
