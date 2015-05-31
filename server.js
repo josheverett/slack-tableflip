@@ -34,7 +34,7 @@ app.post('/tableflip', function (req, res) {
 
   payload = {
     channel: channel,
-    text: text,
+    text: '(╯°□°）╯︵ ' + text,
     icon_emoji: ':rage1:'
   };
 
